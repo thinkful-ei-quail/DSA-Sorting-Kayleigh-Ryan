@@ -2,6 +2,10 @@
 
 const dataSet = [3, 9, 1, 14, 17, 24, 22, 20];
 
+// The pivot could have been 14 or 14 after the first partition is
+// 3 9 1 14 17 24 22 20.
+//
+
 console.log(quickSort(dataSet));
 
 function quickSort(array, start = 0, end = array.length) {
